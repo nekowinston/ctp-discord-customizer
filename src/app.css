@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-base text-text;
+	}
+	button,
+	input[type='checkbox'],
+	input[type='radio'] {
+		@apply focus:outline-mauve;
+	}
+	input[type='checkbox'],
+	input[type='radio'],
+	select {
+		@apply rounded border-none bg-text text-mauve;
+	}
+}
