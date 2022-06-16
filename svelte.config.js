@@ -7,7 +7,10 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			default: true
-		}
+		},
+    paths: {
+      base: '/ctp-discord-customizer'
+    }
 	},
 	preprocess: [
 		preprocess({
