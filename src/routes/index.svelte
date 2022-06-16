@@ -72,7 +72,7 @@
 		>
 			Catppuccin Discord Customizer
 		</h1>
-		<form on:change={() => window.createTheme(window.stylusData)} class="">
+		<form on:change={() => window.createTheme(window.stylusData)}>
 			<label for="theme">
 				<span class="text-sm font-semibold">Use</span>
 				<select
