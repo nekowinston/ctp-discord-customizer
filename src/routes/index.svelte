@@ -72,6 +72,12 @@
 		>
 			Catppuccin Discord Customizer
 		</h1>
+		<span class="text-lg font-bold"
+			>Theme by <a
+				class="bg-gradient-to-br from-rosewater to-yellow bg-clip-text text-transparent decoration-rosewater/30 decoration-2 hover:underline"
+				href="https://github.com/GlowingUmbreon/discord">GlowingUmbreon</a
+			></span
+		>
 		<form on:change={() => window.createTheme(window.stylusData)}>
 			<label for="theme">
 				<span class="text-sm font-semibold">Use</span>
