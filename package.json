@@ -33,7 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"highlight.js": "^11.5.1",
-		"stylus": "https://github.com/iChenLei/stylus#browser-build"
+		"highlight.js": "^11.5.1"
 	}
 }
