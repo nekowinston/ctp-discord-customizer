@@ -26,7 +26,7 @@ function getPureCSS(input: string, theme: theme = 'Mocha', prepareSync: boolean 
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get(event: import('@sveltejs/kit').RequestEvent) {
-	const frontmatterCSS = fs.readFileSync('./src/utils/frontmatter.css', 'utf8');
+	const frontmatterCSS = fs.readFileSync('./data/frontmatter.css', 'utf8');
 	const stylusCSS = fs.readFileSync('./catppuccin-discord/discord.user.css', 'utf8');
 
 	const params = event.url.searchParams;
