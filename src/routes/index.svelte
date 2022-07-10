@@ -124,11 +124,12 @@
 		</label>
 		<pre class={'bg-mantle p-4 mt-2 overflow-x-scroll ' + (showCSS ? 'block' : 'hidden')}>
     <code
-				class="language-css leading-none outline-none"
+				class="language-css relative leading-none outline-none"
 				id="result"
 				bind:innerHTML={hlResult}
-				contenteditable="true"
-			/>
+				contenteditable="true">
+      <button class="rounded bg-overlay0">Copy to clipboard</button>
+      </code>
     </pre>
 	</div>
 </div>
